@@ -1,0 +1,15 @@
+{
+  "name": "Project",
+  "version": "0.0.1",
+  "description": "Projects with Handlebars, Sass, Gulp.",
+  "author": "Dumar Ojeda - dumarojeda@gmail.com",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.14.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2"
+  }
+}

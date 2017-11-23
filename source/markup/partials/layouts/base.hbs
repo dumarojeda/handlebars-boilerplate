@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      {{#if title}}
+        {{title}}
+      {{else}}
+        Project
+      {{/if}}
+    </title>
+    <meta name="description" content="This is a description for PM3.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    {{> partials/header }}
+    {{#> content}}{{/content}}
+    {{> partials/footer }}
+    <script>document.body.innerHTML = document.body.innerHTML.replace(/>\\s+</g, '><');</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3lgolyOPGUJsms-MShTCTjiTI5xkVCDM"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
